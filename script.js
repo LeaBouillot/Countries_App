@@ -25,7 +25,7 @@ const showCountries = async (search) => {
         <h2>${country.traslations.fra.common}</h2>
         <img src="${country.flags.svg}" alt="${country.flags.alt}">
         <h3>${country.contients[0]}</h3>
-        <h4></h4>
+        <h4>${country.capital}</h4>
          </div> `;
 
          grid.innerHTML = list;
